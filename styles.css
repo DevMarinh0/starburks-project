@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@1,75..100,300..800&family=Oswald:wght@200..700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header .line {
+  background-color: #117050;
+  height: 15px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header-left img {
+  height: 5rem;
+  width: 5rem;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.header-menu {
+  margin-left: 50px;
+  cursor: pointer;
+}
+.header-menu img {
+  width: 2rem;
+  width: 2rem;
+  margin-top: 2px;
+}
+button img {
+  width: 64px;
+  height: 64px;
+}
+.header-search form {
+  display: flex;
+}
+.header-search input {
+  font-size: 1rem;
+  padding: 8px 15px;
+  border: 1px solid #999999;
+  outline: none;
+  width: 100%;
+  max-width: 250px;
+}
+.header-right button {
+  border: none;
+  background: transparent;
+  margin-left: -33px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.header-right button img {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+.banner {
+  background-image: url(//images01.nicepage.com/cd/bf/cdbf59a2f165be0f4ab729f1183a7b1d.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.banner h1 {
+  font-family: "oswald", "sans serif";
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 90px;
+  color: #256b53;
+}
+
+.banner-img .img-drink-starbucks {
+  background: transparent;
+}
