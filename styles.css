@@ -174,7 +174,9 @@ button img {
   grid-template-columns: repeat(2, 1fr);
 }
 .area-3-content {
-  padding: 300px 70px;
+  padding: 300px;
+  padding-left: 200px;
+  padding-right: 100px;
   background-image: url(https://images01.nicepage.com/29/62/296278398178bc73b9a258083bce5578.jpeg);
   background-size: cover;
   background-position: left;
